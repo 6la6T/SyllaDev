@@ -1,0 +1,46 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome";
+
+body{
+   
+    background-image: url('bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.style{
+    background-image: linear-gradient(60deg, rgba(23, 46, 253, 0.4),rgba(253, 245, 23, 0.4)) ;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+}
+.container{
+    margin-top: 8%;
+    width: 80%;
+    max-width: 500px;
+    font-family: 'Knewave', cursive;
+}
+.jumbotron{
+    box-shadow: 1px 2px 2px rgba( 201, 205, 217, 0.9);
+    opacity: 0.9;
+}
+.jumbotron h1{
+    font-size: 5.0em;
+    text-transform: uppercase;
+}
+.jumbotron h2{
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 1.4em;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding-left: 0;
+}
+.social .fa{
+    font-size: 50px;
+}
