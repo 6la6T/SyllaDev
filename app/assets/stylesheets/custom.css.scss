@@ -2,6 +2,10 @@
 @import "bootstrap";
 @import "font-awesome";
 
+html, body {
+  height: 100%;
+}
+
 body{
    
     background-image: linear-gradient(60deg, rgba(23, 46, 253, 0.4),rgba(253, 245, 23, 0.4));
@@ -11,7 +15,7 @@ body{
 }
 
 .container{
-    margin-top: 8%;
+    margin-top: 5%;
     width: 80%;
     max-width: 500px;
     font-family: 'Knewave', cursive;
