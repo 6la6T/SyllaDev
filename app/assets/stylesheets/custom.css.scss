@@ -1,46 +1,127 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
-
-html, body {
-  height: 100%;
+html{
+    max-width: 100%;
 }
-
-body{
-   
-    background-image: linear-gradient(60deg, rgba(23, 46, 253, 0.4),rgba(253, 245, 23, 0.4));
-    background-attachment: fixed;
+.tete{
+    width: 100%;
+    height: 500px;
+    background-image: image_url('japon.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255,0.7);
+}
+.brand h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -5px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0px 0px 25px #000000;
+}
+.brand h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    background: linear-gradient(to right, #F00202, #F8F112);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text; 
+}
+.brand h3{
+    text-align: center;
+}
+.moi {
+    width: 100%;
 }
 
-.container{
+#about{
+    text-align: center;
+    margin-bottom: -45%;
+    margin-left: 7%;
+    margin-right: 7%;
     margin-top: 5%;
+}
+#about img{
     width: 80%;
-    max-width: 500px;
-    font-family: 'Knewave', cursive;
+    float: left;
+    border-radius: 20px;
 }
-.jumbotron{
-    box-shadow: 1px 2px 2px rgba( 201, 205, 217, 0.9);
-    opacity: 0.9;
+#atxt h1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 75px;
+    font-weight: 500;
+    color: #FF830F;
+    text-align: right;
 }
-.jumbotron h1{
-    font-size: 5.0em;
-    text-transform: uppercase;
+#atxt p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+    text-align: justify;
 }
-.jumbotron h2{
-    font-size: 1.7em;
-    text-transform: uppercase;
+.apt{
+    margin-top: 55%;
+    background-color: #FF830F ;
+    max-width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-h3{
-    font-size: 1.4em;
+.item{
+    margin-left: 25%;
+    margin-right: 25%;
 }
-li{
-    list-style: none;
+.item td{
+    text-align: center;
 }
-ul{
-    padding-left: 0;
+.item tr{;
+    width: 600px;
 }
-.social .fa{
+.desc{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.desc img{
+    width: 50%;
+}
+.desc h1{
+   font-family: 'Russo One', sans-serif;
+   color: #fff;
+}
+.desc h2{
+   font-family: 'Barlow Condensed', sans-serif;
+   color: #fff;
+}
+.contact{
+    text-align: center;
+}
+#contact{
+    font-size: 100px;
+    width: 100%;
+}
+#contact td{
+    width: 33%;
+}
+#contact a{
+    color: #FF830F ;
+}
+#contact a:hover{
+    color: #BB5A00 ;
+}
+.contact img{
+    width: 10%;
+}
+.contact h1{
+    font-family: 'Russo One', sans-serif;
+   color: #FF830F;
+   font-size: 70px;
+   margin-top: 5%;
+}
+.contact p{
+    font-family: 'Barlow Condensed', sans-serif;
     font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }

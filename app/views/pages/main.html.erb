@@ -1,53 +1,80 @@
-<div class="style">
-    <body>
-        <div class="container text-center">
-            <div class="jumbotron">
-                <%= image_tag ('logo.png') %>
-                <h1> SyllaDev</h1>
-                <h2> Développeur front-end</h2>
-            <hr>
-                <div class="row">
-                    <div class="col-xs-4">
-                        <h3><b>Competences</b></h3>
-                        <ul>
-                            <li>HTML/CSS</li>
-                            <li>Ruby on Rails</li>
-                            <li>Javascript</li>
-                        </ul>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3></h3>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <div class="col-xs-4">
-                        <h3><b>Formations</b></h3>
-                        <ul>
-                            <li>OpenClassRoom</li>
-                            <li>Rails Heroes Course</li>
-                            <li>Autodidacte</li>
-                        </ul>
-                    </div>
-                    
-                </div>
-                <hr>
-                <div class="row social">
-                    <div class="col-xs-4">
-                        <a href="https://www.facebook.com/Sylla-Dev-1130507720452314/?modal=admin_todo_tour"><i class="fa fa-facebook"></i></a>
-                    </div>
-                    <div class="col-xs-4">
-                        <a href="https://www.instagram.com/syllawebdev/?hl=fr"><i class="fa fa-instagram"></i></a>
-                    </div>
-                    <div class="col-xs-4">
-                        <a href="https://www.linkedin.com/in/sylla-dev-52aa2b178/"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                </div>
-                <hr>
-                <small><i class="fa fa-envelope-open"></i> <a href="mailto:syllawebdev@gmail.com" class="mailto" style="color:#000000;">syllawebdev@gmail.com</a></small>
-            </div>
+<head>
+    <div class="tete">
+        <div class="brand" data-aos="zoom-out-down">
+            <h3><%= image_tag("log.png") %></h3>
+            <h1>SYLLAWEBDEV</h1>
+            <h2>" Make it Happen "</h2>
         </div>
-    </body>
-</div>
+    </div>
+</head>
+<body>
+    <div class="moi" data-aos="zoom-in-down">
+        <table id="about">
+           <tr>
+           <td><%= image_tag("me.jpg") %></td>
+           <td id="atxt">
+               <h1>CAMILLE SYLLA</h1>
+               <p>L'avenir est le monde digital. C'est la raison pour laquelle j'ai décidé de faire de ma passion mon metier. Formations apres formations cela a confirmé mon idée. Un monde ou les seuls limites sont l'imagination et l'ingéniosité. Je me suis donc naturellement tourné vers le developpement. Pourquoi le web? Le web est pour moi le façon la plus direct de rendre service à mes "clients". Les resultats, l'évolution, semaines après semaines, mois après mois est juste incroyables et donne soif de connaissances. C'est aussi (pour moi) le meilleur moyen d'etre independant. <br> Je saurais m'adapter à vos idées, vos stratégies, vos exigences. Ensemble, nous pourrons constuire une partie de votre activité. N'hésité pas à me contacter.<br><br> MAKE IT HAPPEN !!! </p>
+           </td>
+       </tr> 
+        </table>
+    </div>
+   <div class="apt">
+      <div class="desc" data-aos="zoom-in-down"> 
+           <table class="item">
+       <tr>
+           <td><%= image_tag("pc.png") %></td>
+           <td>
+               <h1>DEVELOPPEMENT WEB</h1>
+               <h2>Creation de sites web de A à Z.</h2>
+           </td>
+       </tr>
+       </table>
+       </div>
+       <div class="desc" data-aos="zoom-in-up">
+           <table class="item">
+       <tr>
+            <td>
+                <h1>WEB DESIGN</h1>
+                <h2>Trouver une bonne ergonomie pour vos utilisateurs.</h2>
+            </td>
+            <td><%= image_tag("plan.png") %></td>
+       </tr>
+            </table>
+        </div>
+        <div class="desc" data-aos="zoom-in"> 
+           <table class="item">
+       <tr>
+           <td><%= image_tag("chat.png") %></td>
+           <td>
+               <h1>DIALOGUE</h1>
+               <h2>Toujours en contact afin que le projet sois le plus personnel possible.</h2>
+           </td>
+       </tr>
+       </table>
+       </div>
+       <div class="desc" data-aos="zoom-in">
+           <table class="item">
+       <tr>
+            <td>
+                <h1>COMMUNICATION</h1>
+                <h2>Toucher une plus large clientèle pour votre activité.</h2>
+            </td>
+            <td><%= image_tag("wt.png") %></td>
+       </tr>
+            </table>
+        </div>
+   </div>
+   <div class="contact">
+       <h1> Contactez moi !</h1>
+       <p><%= image_tag ("mail.png") %><br><a href="mailto:syllawebdev@gmail.com" class="mailto" style="color: #FF830F;">syllawebdev@gmail.com</a></p>
+            <table id="contact">
+                <tr>
+                    <td><a href="https://www.facebook.com/Sylla-Dev-1130507720452314/?modal=admin_todo_tour"><i class="fa fa-facebook"></i></a> </td>
+                    <td> <a href="https://www.instagram.com/syllawebdev/?hl=fr"><i class="fa fa-instagram"></i></a> </td>
+                    <td> <a href="https://www.linkedin.com/in/sylla-dev-52aa2b178/"><i class="fa fa-linkedin"></i></a> </td>
+                </tr> 
+            </table>
+      
+    </div>
+</body>
